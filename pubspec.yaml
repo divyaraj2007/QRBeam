@@ -1,0 +1,27 @@
+name: qrbeam
+description: QRBeam - offline optical file transfer using live QR codes.
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  file_picker: ^8.0.0
+  path: ^1.9.0
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^5.1.1
+  crypto: ^3.0.3
+  path_provider: ^2.1.2
+  shared_preferences: ^2.2.3
+  open_filex: ^4.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
